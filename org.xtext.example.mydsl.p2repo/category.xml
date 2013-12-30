@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.xtext.example.mydsl.sdk_1.0.0.qualifier.jar" id="org.xtext.example.mydsl.sdk" version="1.0.0.qualifier">
+      <category name="org.xtext.example.mydsl"/>
+   </feature>
+   <category-def name="org.xtext.example.mydsl" label="MyDsl Xtext Example"/>
+</site>

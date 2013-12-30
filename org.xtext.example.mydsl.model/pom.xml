@@ -1,0 +1,65 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.xtext.example</groupId>
+		<artifactId>releng</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>org.xtext.example.mydsl.model</artifactId>
+	<packaging>eclipse-plugin</packaging>
+
+<properties>
+	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+</properties>
+
+<build>
+	<sourceDirectory>src</sourceDirectory>
+	
+	
+	<plugins>
+
+		<plugin>
+			<groupId>org.eclipse.xtext</groupId>
+			<artifactId>xtext-maven-plugin</artifactId>
+			<version>${xtext-version}</version>
+
+			<executions>
+				<execution>
+					<goals>
+						<goal>generate</goal>
+					</goals>
+				</execution>
+			</executions>
+			<configuration>
+			
+				<languages>
+					<language>
+						<setup>org.xtext.example.mydsl.MyDslStandaloneSetup</setup>
+						<outputConfigurations>
+							<outputConfiguration>
+								<outputDirectory>${project.build.directory}/model-gen/</outputDirectory>
+								<createOutputDirectory>true</createOutputDirectory>
+					      <overrideExistingResources>true</overrideExistingResources>
+					      <cleanUpDerivedResources>true</cleanUpDerivedResources>
+							</outputConfiguration>
+						</outputConfigurations>
+					</language>
+				</languages>
+			</configuration>
+
+
+			<dependencies>
+				<dependency>
+					<groupId>${project.groupId}</groupId>
+					<artifactId>org.xtext.example.mydsl</artifactId>
+					<version>${project.version}</version>
+				</dependency>
+			</dependencies>
+		</plugin>
+	</plugins>
+</build>
+
+</project>
