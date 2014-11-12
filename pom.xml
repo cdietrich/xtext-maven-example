@@ -16,7 +16,7 @@
 
 	<properties>
 		<tycho-version>0.21.0</tycho-version>
-		<xtext-version>2.6.2</xtext-version>
+		<xtext-version>2.7.2</xtext-version>
 	</properties>
 
 	<repositories>

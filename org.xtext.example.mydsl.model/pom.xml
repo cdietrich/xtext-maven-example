@@ -40,7 +40,7 @@
 						<setup>org.xtext.example.mydsl.MyDslStandaloneSetup</setup>
 						<outputConfigurations>
 							<outputConfiguration>
-								<outputDirectory>${project.build.directory}/model-gen/</outputDirectory>
+								<outputDirectory>${project.basedir}/model-gen/</outputDirectory>
 								<createOutputDirectory>true</createOutputDirectory>
 					      <overrideExistingResources>true</overrideExistingResources>
 					      <cleanUpDerivedResources>true</cleanUpDerivedResources>
