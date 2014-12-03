@@ -11,12 +11,13 @@
 		<module>org.xtext.example.mydsl.ui</module>
 		<module>org.xtext.example.mydsl.sdk</module>
 		<module>org.xtext.example.mydsl.p2repo</module>
+		<module>org.xtext.example.mydsl.product</module>
 		<module>org.xtext.example.mydsl.model</module>
 	</modules>
 
 	<properties>
-		<tycho-version>0.21.0</tycho-version>
-		<xtext-version>2.7.2</xtext-version>
+		<tycho-version>0.22.0</tycho-version>
+		<xtext-version>2.7.3</xtext-version>
 	</properties>
 
 	<repositories>
