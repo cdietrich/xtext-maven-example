@@ -13,6 +13,7 @@
 		<module>org.xtext.example.mydsl.p2repo</module>
 		<module>org.xtext.example.mydsl.product</module>
 		<module>org.xtext.example.mydsl.model</module>
+		<module>org.xtext.example.mydsl.tests</module>
 	</modules>
 
 	<properties>
