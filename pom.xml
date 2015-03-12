@@ -18,7 +18,7 @@
 
 	<properties>
 		<tycho-version>0.22.0</tycho-version>
-		<xtext-version>2.7.3</xtext-version>
+		<xtext-version>2.8.0</xtext-version>
 	</properties>
 
 	<repositories>
@@ -34,16 +34,6 @@
 		</repository>
 
 	</repositories>
-
-	<pluginRepositories>
-		<!-- Repository to resolve fornax-oaw-m2-plugin -->
-		<pluginRepository>
-			<id>fornax.plugin.repository</id>
-			<name>Fornax Plugin Repository</name>
-			<url>http://www.fornax-platform.org/m2/repository</url>
-		</pluginRepository>
-
-	</pluginRepositories>
 
 	<build>
 		<plugins>

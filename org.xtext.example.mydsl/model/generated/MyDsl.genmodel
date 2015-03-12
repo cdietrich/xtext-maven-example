@@ -4,7 +4,7 @@
     editorDirectory="/Users/dietrich/work/xtext-maven-example/org.xtext.example.mydsl.editor/src"
     modelPluginID="org.xtext.example.mydsl" forceOverwrite="true" modelName="MyDsl"
     updateClasspath="false" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
-    complianceLevel="5.0" copyrightFields="false" editPluginID="org.xtext.example.mydsl.edit"
+    complianceLevel="6.0" copyrightFields="false" editPluginID="org.xtext.example.mydsl.edit"
     editorPluginID="org.xtext.example.mydsl.edit" runtimeVersion="2.10">
   <genPackages prefix="MyDsl" basePackage="org.xtext.example.mydsl" disposableProviderFactory="true"
       fileExtensions="mydsl" ecorePackage="MyDsl.ecore#/">

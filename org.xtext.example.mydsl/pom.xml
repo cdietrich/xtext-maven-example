@@ -71,7 +71,7 @@
 				</executions>
 			</plugin>
 			<!-- <plugin> <groupId>org.fornax.toolsupport</groupId> <artifactId>fornax-oaw-m2-plugin</artifactId> 
-				<version>3.4.0</version> <configuration> <workflowEngine>mwe2</workflowEngine> 
+				<version>3.5.1</version> <configuration> <workflowEngine>mwe2</workflowEngine> 
 				<workflowDescriptor>src/org/xtext/example/mydsl/GenerateMyDsl.mwe2</workflowDescriptor> 
 				</configuration> <executions> <execution> <phase>generate-sources</phase> 
 				<goals> <goal>run-workflow</goal> </goals> </execution> </executions> </plugin> -->
