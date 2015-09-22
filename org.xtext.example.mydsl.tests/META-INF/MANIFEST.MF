@@ -10,8 +10,8 @@ Require-Bundle: org.xtext.example.mydsl,
  org.eclipse.core.runtime,
  org.eclipse.ui.workbench;resolution:=optional,
  org.objectweb.asm;bundle-version="[5.0.1,6.0.0)";resolution:=optional,
- org.eclipse.xtext.junit4;bundle-version="2.8.0",
- org.eclipse.xtext.xbase.lib;bundle-version="2.8.0"
+ org.eclipse.xtext.junit4;bundle-version="2.8.4",
+ org.eclipse.xtext.xbase.lib;bundle-version="2.8.4"
 Import-Package: org.apache.log4j,
  org.junit;version="4.5.0",
  org.junit.runner;version="4.5.0",
