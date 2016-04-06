@@ -1,0 +1,7 @@
+language: java
+
+os:
+  - linux
+
+script:
+ - mvn clean install  
