@@ -17,29 +17,29 @@
 	</modules>
 
 	<properties>
-		<tycho-version>0.24.0</tycho-version>
-		<xtext-version>2.9.2</xtext-version>
+		<tycho-version>0.25.0</tycho-version>
+		<xtext-version>2.10.0</xtext-version>
 	</properties>
 
 	<repositories>
 		<repository>
 			<id>kepler</id>
-			<url>http://download.eclipse.org/releases/mars</url>
+			<url>http://download.eclipse.org/releases/neon/201606221000</url>
 			<layout>p2</layout>
 		</repository>
 		<repository>
 			<id>xtext</id>
-			<url>http://download.eclipse.org/modeling/tmf/xtext/updates/releases/2.9.2/</url>
+			<url>http://download.eclipse.org/modeling/tmf/xtext/updates/releases/2.10.0/</url>
 			<layout>p2</layout>
 		</repository>
 		<repository>
 			<id>mwe</id>
-			<url>http://download.eclipse.org/modeling/emft/mwe/updates/releases/2.8.3/</url>
+			<url>http://download.eclipse.org/modeling/emft/mwe/updates/releases/2.9.0/</url>
 			<layout>p2</layout>
 		</repository>
 		<repository>
 			<id>emf</id>
-			<url>http://download.eclipse.org/modeling/emf/emf/updates/2.10.x/</url>
+			<url>http://download.eclipse.org/modeling/emf/emf/updates/2.11.x/</url>
 			<layout>p2</layout>
 		</repository>
 		<repository>
