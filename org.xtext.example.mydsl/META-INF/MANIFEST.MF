@@ -5,7 +5,7 @@ Bundle-Vendor: My Company
 Bundle-Version: 1.0.0.qualifier
 Bundle-SymbolicName: org.xtext.example.mydsl; singleton:=true
 Bundle-ActivationPolicy: lazy
-Require-Bundle: org.eclipse.xtext;bundle-version="[2.17.0,2.18.0)";visibility:=reexport,
+Require-Bundle: org.eclipse.xtext;bundle-version="[2.18.0,2.19.0)";visibility:=reexport,
  org.eclipse.xtext.xbase;resolution:=optional;visibility:=reexport,
  org.eclipse.xtext.generator;resolution:=optional,
  org.apache.commons.logging;bundle-version="1.0.4";resolution:=optional,
