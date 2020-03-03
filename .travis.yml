@@ -1,5 +1,5 @@
 language: java
-
+install: true
 jdk:
   - openjdk8
 
@@ -7,4 +7,4 @@ os:
   - linux
 
 script:
- - mvn clean install  
+ - mvn clean install -U
