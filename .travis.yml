@@ -8,3 +8,6 @@ os:
 
 script:
  - mvn clean install -U
+
+after_failure:
+ - cat org.xtext.example.mydsl.tests/target/work/data/.metadata/.log
