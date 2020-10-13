@@ -8,7 +8,7 @@ var fileExtensions = "mydsl"
 var projectName = "org.xtext.example.mydsl"
 var runtimeProject = "../${projectName}"
 var grammarURI = "platform:/resource/${projectName}/src/org/xtext/example/mydsl/MyDsl.xtext"
-var generateXtendStub = true
+var generateXtendStub = false
 var encoding = "UTF-8"
 
 Workflow {
