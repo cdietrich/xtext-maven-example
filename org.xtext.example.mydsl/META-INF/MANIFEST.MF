@@ -21,7 +21,7 @@ Require-Bundle: org.eclipse.xtext;bundle-version="[2.24.0,2.25.0)";visibility:=r
  org.eclipse.core.runtime
 Import-Package: org.apache.log4j,
  org.eclipse.xtext.xbase.lib
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Export-Package: org.xtext.example.mydsl,
  org.xtext.example.mydsl.services,
  org.xtext.example.mydsl.myDsl,

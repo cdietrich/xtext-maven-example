@@ -18,7 +18,7 @@ Require-Bundle: org.xtext.example.mydsl;visibility:=reexport,
  org.eclipse.xtext.xbase.lib
 Import-Package: org.apache.log4j,
  org.eclipse.xtext.xbase.lib
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Export-Package: org.xtext.example.mydsl.ui.quickfix,
  org.xtext.example.mydsl.ui.contentassist,
  org.xtext.example.mydsl.ui.contentassist.antlr,
