@@ -42,12 +42,12 @@
 		</repository>
 		<repository>
 			<id>emf</id>
-			<url>https://download.eclipse.org/modeling/emf/emf/builds/release</url>
+			<url>https://download.eclipse.org/modeling/emf/emf/builds/release/2.25/</url>
 			<layout>p2</layout>
 		</repository>
 		<repository>
 			<id>xpand</id>
-			<url>http://download.eclipse.org/modeling/m2t/xpand/updates/releases/</url>
+			<url>http://download.eclipse.org/modeling/m2t/xpand/updates/releases/R201605260315/</url>
 			<layout>p2</layout>
 		</repository>
 		<repository>
