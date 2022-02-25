@@ -17,23 +17,76 @@
 	</modules>
 
 	<properties>
-		<tycho-version>0.23.0</tycho-version>
-		<xtext-version>2.8.4</xtext-version>
+		<tycho-version>1.7.0</tycho-version>
+		<xtext-version>2.26.0-SNAPSHOT</xtext-version>
 	</properties>
 
 	<repositories>
 		<repository>
-			<id>kepler</id>
-			<url>http://download.eclipse.org/releases/mars</url>
+			<id>r202006</id>
+			<url>https://download.eclipse.org/releases/2020-06</url>
+			<layout>p2</layout>
+		</repository>
+		<repository>
+			<id>mwe</id>
+			<url>https://download.eclipse.org/modeling/emft/mwe/updates/releases/2.12.2/</url>
 			<layout>p2</layout>
 		</repository>
 		<repository>
 			<id>xtext</id>
-			<url>http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/</url>
+			<url>https://ci.eclipse.org/xtext/job/xtext-umbrella/job/cd_moreOldGeneratorExperiments/lastSuccessfulBuild/artifact/build/p2-repository/</url>
 			<layout>p2</layout>
 		</repository>
-
+		<repository>
+			<id>sonatype-snapshots</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+			<releases><enabled>false</enabled></releases>
+			<snapshots><enabled>true</enabled></snapshots>
+		</repository>
+		<repository>
+			<id>codehaus-snapshots</id>
+			<name>disable dead 'Codehaus Snapshots' repository, see https://bugs.eclipse.org/bugs/show_bug.cgi?id=481478</name>
+			<url>http://nexus.codehaus.org/snapshots/</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
 	</repositories>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>codehaus-snapshots</id>
+			<name>disable dead 'Codehaus Snapshots' repository, see https://bugs.eclipse.org/bugs/show_bug.cgi?id=481478</name>
+			<url>http://nexus.codehaus.org/snapshots/</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</pluginRepository>
+		<pluginRepository>
+			<id>sonatype-snapshots</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+			<releases><enabled>false</enabled></releases>
+			<snapshots><enabled>true</enabled></snapshots>
+		</pluginRepository>
+	</pluginRepositories>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.eclipse.xtext</groupId>
+				<artifactId>xtext-dev-bom</artifactId>
+				<version>${xtext-version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 
 	<build>
 		<plugins>
