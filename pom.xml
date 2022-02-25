@@ -34,7 +34,7 @@
 		</repository>
 		<repository>
 			<id>xtext</id>
-			<url>https://ci.eclipse.org/xtext/job/xtext-umbrella/job/cd_moreOldGeneratorExperiments/lastSuccessfulBuild/artifact/build/p2-repository/</url>
+			<url>https://download.eclipse.org/modeling/tmf/xtext/updates/milestones/S202202211317/</url>
 			<layout>p2</layout>
 		</repository>
 		<repository>
