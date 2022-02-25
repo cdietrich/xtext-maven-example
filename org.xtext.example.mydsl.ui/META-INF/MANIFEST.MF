@@ -26,3 +26,4 @@ Export-Package: org.xtext.example.mydsl.ui.quickfix,
  org.xtext.example.mydsl.ui.internal,
  org.xtext.example.mydsl.ui.contentassist.antlr.internal
 Bundle-Activator: org.xtext.example.mydsl.ui.internal.MyDslActivator
+Automatic-Module-Name: org.xtext.example.mydsl.ui
