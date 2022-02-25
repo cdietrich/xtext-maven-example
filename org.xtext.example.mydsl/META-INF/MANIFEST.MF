@@ -30,3 +30,4 @@ Export-Package: org.xtext.example.mydsl,
  org.xtext.example.mydsl.scoping,
  org.xtext.example.mydsl.generator,
  org.xtext.example.mydsl.formatting
+Automatic-Module-Name: org.xtext.example.mydsl
