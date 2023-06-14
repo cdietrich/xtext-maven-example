@@ -18,7 +18,7 @@
 
 	<properties>
 		<tycho-version>2.7.5</tycho-version>
-		<xtext-version>2.30.0</xtext-version>
+		<xtext-version>2.31.0</xtext-version>
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
 		<tycho.disableP2Mirrors>true</tycho.disableP2Mirrors>
@@ -27,12 +27,12 @@
 	<repositories>
 		<repository>
 			<id>eclipse</id>
-			<url>https://download.eclipse.org/releases/2023-03</url>
+			<url>https://download.eclipse.org/releases/2023-06</url>
 			<layout>p2</layout>
 		</repository>
 		<repository>
 			<id>xtext</id>
-			<url>https://download.eclipse.org/modeling/tmf/xtext/updates/releases/2.30.0/</url>
+			<url>https://download.eclipse.org/modeling/tmf/xtext/updates/releases/2.31.0/</url>
 			<layout>p2</layout>
 		</repository>
 		<repository>
