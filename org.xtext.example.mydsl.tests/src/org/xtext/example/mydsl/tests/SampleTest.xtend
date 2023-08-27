@@ -1,6 +1,6 @@
 package org.xtext.example.mydsl.tests
 
-import javax.inject.Inject
+import jakarta.inject.Inject
 import org.eclipse.xtext.junit4.InjectWith
 import org.eclipse.xtext.junit4.XtextRunner
 import org.eclipse.xtext.junit4.util.ParseHelper
