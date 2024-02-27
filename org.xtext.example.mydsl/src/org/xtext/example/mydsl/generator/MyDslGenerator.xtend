@@ -4,8 +4,9 @@
 package org.xtext.example.mydsl.generator
 
 import org.eclipse.emf.ecore.resource.Resource
-import org.eclipse.xtext.generator.IFileSystemAccess
-import org.eclipse.xtext.generator.IGenerator
+import org.eclipse.xtext.generator.AbstractGenerator
+import org.eclipse.xtext.generator.IFileSystemAccess2
+import org.eclipse.xtext.generator.IGeneratorContext
 import org.xtext.example.mydsl.myDsl.Greeting
 
 /**
@@ -13,9 +14,9 @@ import org.xtext.example.mydsl.myDsl.Greeting
  * 
  * see http://www.eclipse.org/Xtext/documentation.html#TutorialCodeGeneration
  */
-class MyDslGenerator implements IGenerator {
+class MyDslGenerator extends AbstractGenerator {
 	
-	override void doGenerate(Resource resource, IFileSystemAccess fsa) {
+	override void doGenerate(Resource resource, IFileSystemAccess2 fsa, IGeneratorContext context) {
 		fsa.generateFile('greetings.txt', 'People to greet: ' + 
 			resource.allContents
 				.filter(typeof(Greeting))

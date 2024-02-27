@@ -101,14 +101,14 @@
 							-p
 						</argument>
 						<argument>
-							runtimeProject=/${project.basedir}
+							rootPath=/${project.basedir}/..
 						</argument>
 					</arguments>
 				</configuration>
 				<dependencies>
 					<dependency>
 						<groupId>org.eclipse.xtext</groupId>
-						<artifactId>org.eclipse.xtext.generator</artifactId>
+						<artifactId>org.eclipse.xtext.xtext.generator</artifactId>
 						<version>${xtext-version}</version>
 					</dependency>
 					<dependency>

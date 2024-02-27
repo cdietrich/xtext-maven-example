@@ -11,7 +11,9 @@ Require-Bundle: org.xtext.example.mydsl,
  org.eclipse.ui.workbench;resolution:=optional,
  org.objectweb.asm;bundle-version="[9.0.0,10.0.0)";resolution:=optional,
  org.eclipse.xtext.junit4;bundle-version="2.24.0",
- org.eclipse.xtext.xbase.lib;bundle-version="2.24.0"
+ org.eclipse.xtext.xbase.lib;bundle-version="2.24.0",
+ org.eclipse.xtext.xbase.testing,
+ org.eclipse.xtext.testing
 Import-Package: org.apache.log4j,
  org.junit;version="4.5.0",
  org.junit.runner;version="4.5.0",
@@ -21,5 +23,5 @@ Import-Package: org.apache.log4j,
  org.junit.runners.model;version="4.5.0",
  org.hamcrest.core
 Bundle-RequiredExecutionEnvironment: JavaSE-11
-Export-Package: org.xtext.example.mydsl
+Export-Package: org.xtext.example.mydsl.tests;x-internal=true
 Automatic-Module-Name: org.xtext.example.mydsl.tests
