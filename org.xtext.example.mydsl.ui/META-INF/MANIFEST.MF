@@ -12,7 +12,7 @@ Require-Bundle: org.xtext.example.mydsl;visibility:=reexport,
  org.eclipse.xtext.ui.shared,
  org.eclipse.ui,
  org.eclipse.xtext.builder,
- org.antlr.runtime,
+ org.antlr.runtime;bundle-version="[3.2.0,3.2.1)",
  org.eclipse.xtext.ui.codetemplates.ui,
  org.eclipse.compare,
  org.eclipse.xtext.xbase.lib
@@ -23,6 +23,8 @@ Export-Package: org.xtext.example.mydsl.ui.quickfix,
  org.xtext.example.mydsl.ui.contentassist,
  org.xtext.example.mydsl.ui.contentassist.antlr,
  org.xtext.example.mydsl.ui.internal,
- org.xtext.example.mydsl.ui.contentassist.antlr.internal
+ org.xtext.example.mydsl.ui.contentassist.antlr.internal,
+ org.xtext.example.mydsl.ide.contentassist.antlr,
+ org.xtext.example.mydsl.ide.contentassist.antlr.internal
 Bundle-Activator: org.xtext.example.mydsl.ui.internal.MyDslActivator
 Automatic-Module-Name: org.xtext.example.mydsl.ui
