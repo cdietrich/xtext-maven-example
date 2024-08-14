@@ -17,6 +17,10 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: 17
+      - name: Set up Maven 3.9.8
+        uses: stCarolas/setup-maven@v5
+        with:
+          maven-version: 3.9.8
       - name: Build
         uses: GabrielBB/xvfb-action@v1.5
         with:
