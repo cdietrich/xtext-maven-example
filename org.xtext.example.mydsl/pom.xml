@@ -132,11 +132,6 @@
 					  <artifactId>xtext-antlr-generator</artifactId>
 					  <version>2.1.1</version>
 					</dependency>
-					<dependency>
-					  <groupId>com.ibm.icu</groupId>
-					  <artifactId>icu4j</artifactId>
-					  <version>67.1</version>
-					</dependency>
 				</dependencies>
 			</plugin>
 
