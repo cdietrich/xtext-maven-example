@@ -5,7 +5,7 @@ Bundle-Vendor: My Company
 Bundle-Version: 1.0.0.qualifier
 Bundle-SymbolicName: org.xtext.example.mydsl; singleton:=true
 Bundle-ActivationPolicy: lazy
-Require-Bundle: org.eclipse.xtext;bundle-version="[2.37.0,2.38.0)";visibility:=reexport,
+Require-Bundle: org.eclipse.xtext;bundle-version="[2.38.0,2.39.0)";visibility:=reexport,
  org.eclipse.xtext.xtext.generator;resolution:=optional,
  org.apache.commons.logging;bundle-version="1.0.4";resolution:=optional,
  org.eclipse.emf.codegen.ecore;resolution:=optional,
@@ -21,7 +21,7 @@ Require-Bundle: org.eclipse.xtext;bundle-version="[2.37.0,2.38.0)";visibility:=r
  org.eclipse.core.runtime
 Import-Package: org.apache.log4j,
  org.eclipse.xtext.xbase.lib
-Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-RequiredExecutionEnvironment: JavaSE-17
 Export-Package: org.xtext.example.mydsl,
  org.xtext.example.mydsl.services,
  org.xtext.example.mydsl.myDsl,
