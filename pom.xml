@@ -18,7 +18,7 @@
 
 	<properties>
 		<tycho-version>5.0.4</tycho-version>
-		<xtext-version>2.43.0</xtext-version>
+		<xtext-version>2.44.0</xtext-version>
 		<maven.compiler.source>21</maven.compiler.source>
 		<maven.compiler.target>21</maven.compiler.target>
 		<tycho.disableP2Mirrors>true</tycho.disableP2Mirrors>
